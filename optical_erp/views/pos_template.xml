@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets" inherit_id="point_of_sale.assets">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" type="text/css" href="/optical_erp/static/src/css/style.css"/>
+                <script type="text/javascript" src="/optical_erp/static/src/js/script.js"></script>
+                <script type="text/javascript" src="/optical_erp/static/src/js/create_product.js"></script>
+                <script type="text/javascript" src="/optical_erp/static/src/js/models.js"></script>
+                <script type="text/javascript" src="/optical_erp/static/src/js/receipt.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>

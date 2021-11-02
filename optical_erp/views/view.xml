@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem id="optical_erp_root" name="Optical Erp" sequence="1"
+                  web_icon="optical_erp,static/description/icon.png"/>
+        <menuitem id="optical_erp_doctor" name="Doctor" parent="optical_erp_root" action="doctor.action_doctor_window"
+                  groups="doctor.group_optical_erp_doctors,base.group_system" sequence="1"/>
+        <menuitem id="optical_erp_patient" name="Patient" parent="optical_erp_root"
+                  action="patient.action_patient_window" groups="patient.group_optical_erp_patients,base.group_system"
+                  sequence="2"/>
+        <menuitem id="optical_erp_sale_order" name="Sale Order" parent="optical_erp_root" action="sale.action_orders"
+                  sequence="2"/>
+        <menuitem id="optical_erp_config" name="Eye Test Type" parent="optical_erp_root" action="action_config"
+                  sequence="3"/>
+    </data>
+</odoo>

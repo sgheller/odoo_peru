@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="l10n_pe_pos_cpe_assets_backend" inherit_id="point_of_sale.index" name="l10n_pe_pos_cpe_assets_backend_fix">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/flexiretail_invoicing_pe/static/src/js/invoice_cpe.js"></script>
+            <script type="text/javascript" src="/flexiretail_invoicing_pe/static/src/js/pos_timeout.js"></script>
+        </xpath>
+    </template>
+</odoo>

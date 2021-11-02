@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_dr_prescription,access_dr_prescription,model_dr_prescription,doctor.group_optical_erp_doctors,1,1,1,1
+access_admin_prescription,access_admin_prescription,model_dr_prescription,base.group_system,1,1,1,1
+access_admin_config,access_admin_config,model_eye_test_type,base.group_system,1,1,1,1
+access_doctor_eye_test,access_doctor_eye_test,model_eye_test_type,doctor.group_optical_erp_doctors,1,0,0,0
+
+
+
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="optical_erp_settings_view_form">
+        <field name="name">virtual.meeting.settings.form</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="100"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('settings')]" position="inside">
+                <div class="app_settings_block" data-string="Optical Erp" string="Optical Erp" data-key="optical_erp">
+                    <h2 id="web_theme_title">Optical Erp Settings</h2>
+                    <div class="row mt16 o_settings_container" name="web_theme">
+                        <div class="col-12 col-lg-6 o_setting_box">
+                            <span class="o_form_label">Eye Examination Chargeable</span>
+                            <div class="content-group">
+                                <div>
+                                    <field name="eye_examination_chargeable" class="col-5"/>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+
+    <record id="action_optical_erp_config_settings" model="ir.actions.act_window">
+        <field name="name">Settings</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_id" ref="optical_erp_settings_view_form"/>
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">{'module':'optical_erp', 'bin_size': False}</field>
+    </record>
+
+    <menuitem id="menu_optical_erp_settings"
+              name="Settings"
+              parent="optical_erp_config"
+              sequence="2"
+              action="action_optical_erp_config_settings"
+              groups="base.group_system"/>
+
+</odoo>

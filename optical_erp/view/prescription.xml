@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+
+
+		<record id="dr_prescription" model="ir.ui.view">
+			<field name="name">Doctor Prescription</field>
+			<field name="model">dr.prescription</field>
+			<field name="arch" type="xml">
+				<form string="Doctor Prescription">
+					<header>
+						<field name="state" widget="statusbar" statusbar_visible="Draft,Confirm"/>
+						 <button name="confirm_request" type="object" string="Confirm" class="oe_highlight" states="Draft"/>
+						<button name="open_customer" class="btn btn-success" states="Confirm" string="Create Sale Order" type="object" ></button>
+						<button name="print_prescription_report" class="btn btn-success" string="Print Prescription" type="object" ></button>
+					</header>
+					<div class="oe_title">
+						<h1>
+							<field name="name"/>
+						</h1>
+					</div>
+					<group>
+						<group>
+							<field name="dr" attrs="{'readonly': [('state','=','confirm')]}" options='{"no_open": True, "no_create": True}'   required="1"/>
+							<field name="customer"  attrs="{'readonly': [('state','=','confirm')]}" options='{"no_open": True, "no_create": True}' required="1"/>
+							<field name="customer_age"  attrs="{'readonly': [('state','=','confirm')]}" string="customer Age"/>
+							<field name="checkup_date"  attrs="{'readonly': [('state','=','confirm')]}" string="Prescription Date"  required="1"/>
+							<field name="test_type"  attrs="{'readonly': [('state','=','confirm')]}" options='{"no_open": True, "no_create": True}'  required="1"/>
+							<field name="prescription_type"  attrs="{'readonly': [('state','=','confirm')]}"   required="1"/>
+							<field name="eye_examination_chargeable"  attrs="{'readonly': [('state','=','confirm')]}" String="Examination"  required="1"/>
+
+						</group>
+						<group>
+							<field name="family_eye_history"  attrs="{'readonly': [('state','=','confirm')]}" string="Family Eye History"/>
+							<field name="ocular_history"  attrs="{'readonly': [('state','=','confirm')]}" string="Ocular History"/>
+							<field name="consultation"  attrs="{'readonly': [('state','=','confirm')]}" string="Consultation Reason"/>
+						</group>
+					</group>
+
+					<table  cellspacing="0" cellpadding="0" style="border:1px solid; width:100% ">
+						<tr>
+							<td rowspan="2" style="text-align:center; padding:5px; font-size:16px; font-weight:bold; width:7%; border-right:1px solid black; border-bottom:1px solid black;"></td>
+							<td  style="text-align:center; padding:5px; font-size:16px; font-weight:bold; width:40%; border-right:1px solid black; border-bottom:1px solid black;">OD</td>
+							<td  style="text-align:center; padding:5px; font-size:16px; font-weight:bold; width:40%; border-right:1px solid black; border-bottom:1px solid black;">OS</td>
+
+						</tr>
+						<tr>
+							<td  style="text-align:center;  font-size:16px; font-weight:bold; width:30%; border-right:1px solid black; border-bottom:1px solid black;">
+								<table  width="100%">
+									<tr>
+										<td style="border-right:1px solid; width:15%">SPH</td>
+										<td style="border-right:1px solid; width:15%">CYL</td>
+										<td style="border-right:1px solid; width:15%">AXIS</td>
+										<td style="border-right:1px solid; width:15%">Add</td>
+										<td style="border-right:1px solid; width:15%">Prism</td>
+										<td style="width:15%">Base</td>
+
+									</tr>
+
+								</table>
+							</td>
+							<td  style="text-align:center;font-size:16px; font-weight:bold; width:5%; border-right:1px solid black; border-bottom:1px solid black;">
+								<table  width="100%">
+									<tr>
+										<td style="border-right:1px solid; width:15%">SPH</td>
+										<td style="border-right:1px solid; width:15%">CYL</td>
+										<td style="border-right:1px solid; width:15%">AXIS</td>
+										<td style="border-right:1px solid; width:15%">Add</td>
+										<td style="border-right:1px solid; width:15%">Prism</td>
+										<td style="width:15%">Base</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+
+						<tr>
+							<td style="text-align:center; font-size:16px; font-weight:bold; width:5%; border-right:1px solid black; border-bottom:1px solid black;">Distance</td>
+							<td  style="text-align:center;  font-size:16px; font-weight:bold; width:30%; border-right:1px solid black; border-bottom:1px solid black;">
+								<table  width="100%">
+									<tr>
+										<td style="border-right:1px solid;  height:25px; width:15%"><span><field  attrs="{'readonly': [('state','=','confirm')]}" name="od_sph_distance"/></span></td>
+										<td   t-if="od_cyl_distance" style="border-right:1px solid; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="od_cyl_distance"/></td>
+										<td style="border-right:1px solid; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="od_ax_distance"/></td>
+										<td style="border-right:1px solid; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="od_add_distance"/></td>
+										<td style="border-right:1px solid; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="od_prism_distance"/></td>
+										<td style=" width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="od_base_distance"/></td>
+									</tr>
+								</table>
+							</td>
+							<td  style="text-align:center;  font-size:16px; font-weight:bold; width:30%; border-right:1px solid black; border-bottom:1px solid black;">
+								<table  width="100%">
+									<tr>
+										<td style="border-right:1px solid;  height:25px; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="os_sph_distance"/></td>
+										<td style="border-right:1px solid; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="os_cyl_distance"/></td>
+										<td style="border-right:1px solid; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="os_ax_distance"/></td>
+										<td style="border-right:1px solid; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="os_add_distance"/></td>
+										<td style="border-right:1px solid; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="os_prism_distance"/></td>
+										<td style="width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="os_base_distance"/></td>
+
+									</tr>
+								</table>
+							</td>
+
+							<!--							<td  style="text-align:center;  font-size:16px; font-weight:bold; width:15%; border-right:1px solid black; border-bottom:1px solid black;"></td>-->
+						</tr>
+
+						<tr>
+							<td style="text-align:center; font-size:16px; font-weight:bold; width:7%; border-right:1px solid black; border-bottom:1px solid black;">Near</td>
+							<td  style="text-align:center;  font-size:16px; font-weight:bold; width:40%; border-right:1px solid black; border-bottom:1px solid black;">
+								<table cellspacing="0" cellpadding="0"  width="100%">
+									<tr>
+										<td style="border-right:1px solid; height:25px; width:15%"><field attrs="{'readonly': [('state','=','confirm')]}" name="od_sph_near"/></td>
+										<td style="border-right:1px solid; width:15%"><field attrs="{'readonly': [('state','=','confirm')]}" name="od_cyl_near"/></td>
+										<td style="border-right:1px solid; width:15%"><field attrs="{'readonly': [('state','=','confirm')]}" name="od_ax_near"/></td>
+										<td style="border-right:1px solid; width:15%"><field attrs="{'readonly': [('state','=','confirm')]}" name="od_add_near"/></td>
+										<td style="border-right:1px solid; width:15%"><field attrs="{'readonly': [('state','=','confirm')]}" name="od_prism_near"/></td>
+										<td style="width:15%"><field name="od_base_near"/></td>
+									</tr>
+								</table>
+							</td>
+							<td  style="text-align:center;  font-size:16px; font-weight:bold; width:40%; border-right:1px solid black; border-bottom:1px solid black;">
+								<table  width="100%">
+									<tr>
+										<td style="border-right:1px solid;  height:25px; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}"  name="os_sph_near"/></td>
+										<td style="border-right:1px solid; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="os_cyl_near"/></td>
+										<td style="border-right:1px solid; width:15%"><span><field  attrs="{'readonly': [('state','=','confirm')]}" name="os_ax_near"/></span></td>
+										<td style="border-right:1px solid; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="os_add_near"/></td>
+										<td style="border-right:1px solid; width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="os_prism_near"/></td>
+										<td style="width:15%"><field  attrs="{'readonly': [('state','=','confirm')]}" name="os_base_near"/></td>
+									</tr>
+								</table>
+							</td>
+
+							<!--							<td  style="text-align:center;  font-size:16px; font-weight:bold; width:15%; border-right:1px solid black; border-bottom:1px solid black;"></td>-->
+						</tr>
+					</table>
+
+                   <group>
+						<field  attrs="{'readonly': [('state','=','confirm')]}" name="dual_pd"/>
+<!--						<field name="prism"/>-->
+					</group>
+
+					<table border="1" cellpadding="0" attrs="{'invisible': [('dual_pd', '=', True)]}" cellspacing="0" class="table table-bordered pp" width="100px">
+
+						<tr>
+							<th style="text-align:center;">
+								PD
+							</th>
+
+						</tr>
+						<tr>
+							<td style="text-align:center;">
+								<field name="pd"/>
+							</td>
+						</tr>
+					</table>
+					<table border="1" cellpadding="0" attrs="{'invisible': [('dual_pd', '=', False)]}" cellspacing="0"
+						   class="table table-bordered pp" width="150px">
+
+						<tr>
+							<th style="text-align:center;">
+								RIGHT PD
+							</th>
+
+							<th style="text-align:center;">
+								LEFT PD
+							</th>
+						</tr>
+						<tr>
+							<td style="text-align:center;">
+								<field name="pdr" attrs="{'required': [('pdl', '!=', False)],'readonly': [('state','=','confirm')]}"/>
+							</td>
+							<td style="text-align:center;">
+								<field name="pdl" attrs="{'required': [('pdr', '!=', False)],'readonly': [('state','=','confirm')]}"/>
+							</td>
+						</tr>
+					</table>
+
+					<separator string="Diagnosis for the client"/>
+					<field attrs="{'readonly': [('state','=','confirm')]}" name="diagnosis_client" ></field>
+
+					<separator string="Notes for the Laboratory"/>
+					<field attrs="{'readonly': [('state','=','confirm')]}" name="notes_laboratory" ></field>
+
+					<separator string="Optometrist internal observations"/>
+					<field attrs="{'readonly': [('state','=','confirm')]}" name="optometrist_observation" ></field>
+
+					<separator string="Recommendations"/>
+					<separator string="Note"/>
+					<field attrs="{'readonly': [('state','=','confirm')]}" name="dr_notes" placeholder="Note"></field>
+
+
+				</form>
+			</field>
+		</record>
+
+
+		<record id="dr_prescription_tree" model="ir.ui.view">
+			<field name="name">Doctor Prescription Tree View</field>
+			<field name="model">dr.prescription</field>
+			<field name="arch" type="xml">
+				<tree>
+					<field name="dr"/>
+					<field name="customer"/>
+					<field name="checkup_date" string="Prescription Date"/>
+					<field name="test_type"/>
+					<field name="prescription_type"/>
+					<button name="print_prescription_report" class="btn btn-success" string="Print Prescription" type="object" ></button>
+				</tree>
+			</field>
+		</record>
+
+
+		<!--		<record model="ir.ui.view" id="partner_view_form_new">-->
+		<!--			<field name="name">partner.view.doctor</field>-->
+		<!--			<field name="model">res.partner</field>-->
+		<!--			<field name="inherit_id" ref="base.view_partner_form" />-->
+		<!--			<field name="arch" type="xml">-->
+		<!--				<xpath expr="//div[hasclass('oe_button_box')]" position="inside">-->
+		<!--					<button name="open_doctor_prescriptions" class="oe_stat_button" type="object"  icon="fa-tasks">-->
+		<!--						<field string="Prescription's" name="prescription_count" widget="statinfo"/>-->
+		<!--					</button>-->
+		<!--				</xpath>-->
+		<!--			</field>-->
+		<!--		</record>-->
+
+
+		<record id="doctor_view_form" model="ir.ui.view">
+			<field name="name">doctor.view.form</field>
+			<field name="model">optical.dr</field>
+			<field name="inherit_id" ref="doctor.dr_doctor"/>
+			<field name="arch" type="xml">
+				<xpath expr="//div[hasclass('oe_button_box')]" position="inside">
+					<button name="open_doctor_prescriptions" class="oe_stat_button" type="object"  icon="fa-tasks">
+						<field string="Prescription" name="prescription_count" widget="statinfo"/>
+					</button>
+				</xpath>
+			</field>
+		</record>
+
+
+		<record id="sale_order_view_form" model="ir.ui.view">
+			<field name="name">sale.order.form</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//field[@name='payment_term_id']" position="before">
+					<field string="Prescription" name="prescription_id" domain="[('customer','=',partner_id)]" />
+				</xpath>
+				<xpath expr="//field[@name='partner_id']" position="after">
+					<field string="Optometrist" name="doctor" />
+					<field name="prescription_date" string="Prescription Date"  />
+				</xpath>
+				<xpath expr="//header" position="inside">
+					<button name="print_prescription_report" class="btn btn-success" string="Print Prescription" type="object" ></button>
+				</xpath>
+
+
+			</field>
+		</record>
+
+
+		<record id="action_prescription_history_window" model="ir.actions.act_window">
+			<field name="name">Prescription</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">dr.prescription</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+
+		<menuitem id="optical_erp_root" name="Optical Erp" sequence="1" web_icon="optical_erp,static/description/icon.png"/>
+		<menuitem id="optical_erp_doctor" name="Optometrist" parent="optical_erp_root" action="doctor.action_doctor_window" groups="doctor.group_optical_erp_doctors,base.group_system" sequence="1"/>
+		<menuitem id="optical_erp_sale_order" name="Sale Order" parent="optical_erp_root" action="sale.action_orders"   sequence="3"/>
+		<menuitem id="optical_erp_customer" name="Customer" parent="optical_erp_root" action="base.action_partner_customer_form"   sequence="4"/>
+		<menuitem id="optical_erp_config" name="Configuration" parent="optical_erp_root"    sequence="6"/>
+		<menuitem id="optical_erp_prescription_history" name="Prescription History" parent="optical_erp_root"  action="action_prescription_history_window" groups="doctor.group_optical_erp_doctors,base.group_system" sequence="5"/>
+
+
+
+	</data>
+</odoo>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_product_attribute_form_optical_reference" model="ir.ui.view">
+        <field name="name">product.attribute.view.form.optical.reference</field>
+        <field name="model">product.attribute</field>
+        <field name="inherit_id" ref="product.product_attribute_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="in_pos"/>
+				<field name="Sequence"/>
+            </xpath>
+        </field>
+    </record>
+    <record id="view_product_attribute_tree_optical_reference" model="ir.ui.view">
+        <field name="name">product.attribute.view.tree.optical.reference</field>
+        <field name="model">product.attribute</field>
+        <field name="inherit_id" ref="product.attribute_tree_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="in_pos"/>
+				<field name="Sequence"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

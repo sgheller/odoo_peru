@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+
+		<record id="eye_test_type_form" model="ir.ui.view">
+			<field name="name">Eye Test Type Form View</field>
+			<field name="model">eye.test.type</field>
+			<field name="arch" type="xml">
+				<form string="Eye Test Config">
+					<group>
+						<field name="name"/>
+					</group>
+				</form>
+			</field>
+		</record>
+
+
+		<record id="eye_test_type_tree" model="ir.ui.view">
+			<field name="name">Eye Test Type Tree View</field>
+			<field name="model">eye.test.type</field>
+			<field name="arch" type="xml">
+				<tree>
+					<field name="name"/>
+				</tree>
+			</field>
+		</record>
+
+
+		<record id="action_config" model="ir.actions.act_window">
+			<field name="name">Eye Test Type</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">eye.test.type</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+<menuitem id="optical_erp_test_type" name="Lab Test Type" parent="optical_erp_config" action="action_config"  sequence="1"/>
+
+	</data>
+</odoo>

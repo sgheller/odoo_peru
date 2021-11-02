@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="eye_test_config_one" model="eye.test.type">
+            <field name="name">Glasses</field>
+        </record>
+         <record id="eye_test_config_two" model="eye.test.type">
+            <field name="name">Contact Lense</field>
+        </record>
+
+        <record id="optical_erp_product" model="product.product">
+            <field name="name">Eye Examination charges</field>
+            <field name="standard_price">0</field>
+            <field name="list_price">0</field>
+            <field name="type">service</field>
+        </record>
+
+
+    </data>
+
+
+</odoo>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template inherit_id="web.login" id="flexiretail_com_advance.login" name="Flexiretail Login">
+        <xpath expr="//button[@name='redirect']" position="replace">
+            <button onClick="this.form.submit(); this.disabled=true;"
+                type="submit" name="redirect" value="/web/become"
+                class="btn btn-link btn-sm btn-block">Log in as superuser</button>
+        </xpath>
+        <xpath expr="//button[hasclass('btn','btn-primary')]" position="replace">
+            <button onClick="this.form.submit(); this.disabled=true;"
+                type="submit" class="btn btn-primary btn-block">Log in</button>
+        </xpath>
+    </template>
+
+</odoo>

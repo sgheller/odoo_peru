@@ -1,0 +1,149 @@
+.prescription_receipt_table table tbody tr td,.prescription_receipt_table table tbody tr th,.prescription_receipt_table table tbody tr{
+    border: 1px solid black !important;
+}
+.prescription_receipt_table table{
+    font-size: x-small;
+    width: 100%;
+    text-align: center;
+}
+.prescription_receipt_details{
+    font-size: 10px;
+    color: black;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.prescription_receipt_details table tbody tr th{
+    text-align: left;
+}
+.prescription_receipt_details .padding{
+    padding-left: 20px
+}
+.optical_order-details-content .prescription_receipt_table table tbody tr td,.optical_order-details-content .prescription_receipt_table table tbody tr th,.optical_order-details-content .prescription_receipt_table table tbody tr{
+    border: 1px solid green;
+}
+.optical_order-details-content .prescription_receipt_table table{
+    width: 100%;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.optical_order-details-content .prescription_receipt_details{
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 24px;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+.optical_order-details-content .prescription_receipt_details table tbody tr td span{
+    color: green;
+    padding-right: 10px;
+}
+.optical_order-details-content .prescription_receipt_details table{
+    width: 100%;
+}
+.optical_order-details-content .prescription_receipt_table{
+    padding-bottom: 16px;
+}
+.optical_order-details-content .prescription_receipt_details table{
+    table-layout: fixed;
+}
+.prescription_form_div{
+    width:80% !important;
+    height:80% !important;
+    background-color: white !important;
+}
+#prescription_form{
+    font-size: medium;
+    text-align: left;
+    padding: 30px;
+    width: 94%;
+}
+#prescription_form table{
+    table-layout: fixed;
+    width:100%
+}
+#prescription_form table tbody tr td input,#prescription_form table tbody tr td select{
+    width:95%;
+    min-height: 0px;
+    font-size: inherit;
+    padding-left: 5px;
+    height: 30px;
+    color: currentColor;
+    border: 0px;
+    background-color: transparent;
+    -webkit-box-shadow: inset 0px 0px 4px 2px #e6e6e6;
+    -moz-box-shadow: inset 0px 0px 4px 2px #e6e6e6;
+    box-shadow: inset 0px 0px 4px 2px #e6e6e6;
+}
+#prescription_form table tbody tr td{
+    padding: 3px;
+}
+#prescription_form .table tbody tr td,#prescription_form .table tbody tr th{
+    border: 1px solid black;
+}
+#prescription_form .table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+#order_form{
+    font-size: small;
+    text-align: left;
+    padding: 30px;
+    width: 94%;
+}
+#order_form table{
+    table-layout: fixed;
+    width:100%
+}
+#order_form table tbody tr td input,#order_form table tbody tr td select{
+    width:95%;
+    min-height: 0px;
+    font-size: inherit;
+    padding-left: 5px;
+    color: currentColor;
+    border: 0px;
+    background-color: transparent;
+    -webkit-box-shadow: inset 0px 0px 4px 2px #e6e6e6;
+    -moz-box-shadow: inset 0px 0px 4px 2px #e6e6e6;
+    box-shadow: inset 0px 0px 4px 2px #e6e6e6;
+}
+#order_form table tbody tr td{
+    padding: 3px;
+}
+#order_form .table tbody tr td,#order_form .table tbody tr th{
+    border: 1px solid black;
+}
+#order_form .table{
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+}
+#order_form .properties{
+    border: 3px solid black;
+    padding: 3px;
+}
+#order_form .properties tbody tr td{
+    padding: 10px;
+    padding-left: 10px;
+}
+#order_form .properties tbody tr th{
+    padding: 10px;
+    color: green;
+}
+.nbsp{
+    border-left: 0px solid black !important;
+    border-right: 0px solid black !important;
+    border-bottom: 0px solid black !important;
+    border: 0px solid black !important;
+}
+.coupon_question{
+    box-shadow: none !important;
+    width: auto !important;
+}
+.sub-table{
+    vertical-align: top;
+}

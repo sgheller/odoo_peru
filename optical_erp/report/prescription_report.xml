@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+        <template id="doctor_prescription_template">
+            <t t-call="web.html_container">
+                <t t-call="web.external_layout">
+                    <t t-foreach="docs" t-as="doc">
+
+                        <div>
+                            <style>
+                                .headings{
+                                font-size:16px;
+                                font-weight:bold;
+                                }
+                                .text
+                                {
+                                font-size:16px;
+                                font-family: sans-serif;
+                                }
+                            </style>
+                            <table width="25%">
+                                <tr>
+                                    <td class="headings">Doctor Name :</td>
+                                    <td class="text"><span t-field="doc.dr" ></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="headings">Prescription Date:</td>
+                                    <td  class="text"><span t-field="doc.checkup_date" ></span></td>
+                                </tr>
+                            </table>
+
+                            <table width="100%" style="margin-top:20px;">
+                                <tr>
+                                    <td width="50%">
+                                        <table width="60%">
+                                            <tr>
+                                                <td class="headings">Patient Name :</td>
+                                                <td class="text"><span t-field="doc.customer" ></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="headings">PatientAge:</td>
+                                                <td class="text"><span t-field="doc.customer_age"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="headings">Test Type:</td>
+                                                <td class="text"><span t-field="doc.test_type"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="headings">Phone:</td>
+                                                <td class="text"><span t-field="doc.customer.phone" ></span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td  width="50%">
+                                        <table width="60%">
+                                            <tr>
+                                                <td class="headings">Street:</td>
+                                                <td class="text"><span t-field="doc.customer.street" ></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="headings">City:</td>
+                                                <td class="text"><span t-field="doc.customer.city" ></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="headings">Zip Code:</td>
+                                                <td class="text"><span t-field="doc.customer.zip" ></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="headings">Email:</td>
+                                                <td class="text"><span t-field="doc.customer.email" ></span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table  cellspacing="0" cellpadding="0" style="border:1px solid; width:100%; margin-top:15px;">
+                                <tr>
+                                    <td rowspan="2" style="text-align:center; padding:5px; font-size:16px; font-weight:bold; width:7%; border-right:1px solid black; border-bottom:1px solid black;"></td>
+                                    <td  style="text-align:center; padding:5px; font-size:16px; font-weight:bold; width:40%; border-right:1px solid black; border-bottom:1px solid black;  font-size:16px; color:green; font-weight:bold; ">OD</td>
+                                    <td  style="text-align:center; padding:5px; font-size:16px; font-weight:bold; width:40%; border-right:1px solid black; border-bottom:1px solid black;  font-size:16px; color:green; font-weight:bold; ">OS</td>
+                                    <!--                                    <td rowspan="2" style="text-align:center; padding:5px; font-size:16px; font-weight:bold; width:3%; border-right:1px solid black; border-bottom:1px solid black;">PD</td>-->
+                                </tr>
+                                <tr>
+                                    <td  style="text-align:center;  font-size:16px; font-weight:bold; width:30%; border-right:1px solid black; border-bottom:1px solid black;">
+                                        <table  width="100%">
+                                            <tr>
+                                                <td style="border-right:1px solid;  font-size:16px; color:green; font-weight:bold;  width:15%">SPH</td>
+                                                <td style="border-right:1px solid;  font-size:16px; color:green; font-weight:bold;  width:15%">CYL</td>
+                                                <td style="border-right:1px solid;  font-size:16px; color:green; font-weight:bold;  width:15%">AXIS</td>
+                                                <td style="border-right:1px solid;  font-size:16px; color:green; font-weight:bold;  width:15%">Add</td>
+                                                <td style="border-right:1px solid;  font-size:16px; color:green; font-weight:bold;  width:15%">Prism</td>
+                                                <td style="width:15%  font-size:16px; color:green; font-weight:bold;  ">Base</td>
+
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                    <td  style="text-align:center;font-size:16px; font-weight:bold; width:5%; border-right:1px solid black; border-bottom:1px solid black;">
+                                        <table  width="100%">
+                                            <tr>
+                                                <td style="border-right:1px  font-size:16px; color:green; font-weight:bold;  solid; width:15%">SPH</td>
+                                                <td style="border-right:1px  font-size:16px; color:green; font-weight:bold;  solid; width:15%">CYL</td>
+                                                <td style="border-right:1px  font-size:16px; color:green; font-weight:bold;  solid; width:15%">AXIS</td>
+                                                <td style="border-right:1px   font-size:16px; color:green; font-weight:bold; solid; width:15%">Add</td>
+                                                <td style="border-right:1px   font-size:16px; color:green; font-weight:bold; solid; width:15%">Prism</td>
+                                                <td style="width:15%  font-size:16px; color:green; font-weight:bold;  ">Base</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="text-align:center; font-size:16px; font-weight:bold; width:5%; border-right:1px solid black; border-bottom:1px solid black;  font-size:16px; color:green; font-weight:bold; ">Distance</td>
+                                    <td  style="text-align:center;  font-size:16px; font-weight:bold; width:30%; border-right:1px solid black; border-bottom:1px solid black;">
+                                        <table  width="100%">
+                                            <tr>
+                                                <td  t-if="doc.od_sph_distance"  style="border-right:1px solid;width:15%;"><span t-field="doc.od_sph_distance"></span></td>
+                                                <td   style="border-right:1px solid; width:15%"><span t-field="doc.od_cyl_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.od_ax_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.od_add_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.od_prism_distance"></span></td>
+                                                <td style=" width:15%"><span t-field="doc.od_base_distance"></span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td  style="text-align:center;  font-size:16px; font-weight:bold; width:30%; border-right:1px solid black; border-bottom:1px solid black;">
+                                        <table  width="100%">
+                                            <tr>
+                                                <td style="border-right:1px solid;  width:15%"><span t-field="doc.os_sph_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.os_cyl_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.os_ax_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.os_add_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.os_prism_distance"></span></td>
+                                                <td style="width:15%"><span t-field="doc.os_prism_distance"></span></td>
+
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="text-align:center; font-size:16px; font-weight:bold; width:7%; border-right:1px solid black; border-bottom:1px solid black;  font-size:16px; color:green; font-weight:bold;  ">Near</td>
+                                    <td  style="text-align:center;  font-size:16px; font-weight:bold; width:40%; border-right:1px solid black; border-bottom:1px solid black;">
+                                        <table cellspacing="0" cellpadding="0"  width="100%">
+                                            <tr>
+                                                <td  style="border-right:1px solid;width:15%;"><span t-field="doc.od_sph_near"></span></td>
+                                                <td   style="border-right:1px solid; width:15%"><span t-field="doc.od_cyl_near"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.od_ax_near"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.od_add_near"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.od_prism_near"></span></td>
+                                                <td style=" width:15%"><span t-field="doc.od_base_near"></span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td  style="text-align:center;  font-size:16px; font-weight:bold; width:40%; border-right:1px solid black; border-bottom:1px solid black;">
+                                        <table cellspacing="0" cellpadding="0"  width="100%">
+                                            <tr>
+                                                <td   style="border-right:1px solid;width:15%;"><span t-field="doc.os_sph_near"></span></td>
+                                                <td   style="border-right:1px solid; width:15%"><span t-field="doc.os_cyl_near"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.os_ax_near"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.os_add_near"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.os_prism_near"></span></td>
+                                                <td style="width:15%"><span t-field="doc.os_base_near"></span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table t-if="doc.dual_pd == True" style="width:20%; margin-top:30px; border:1px solid black;">
+                                <tr>
+                                    <td  style="text-align:center; padding:5px; font-size:16px; color:green; font-weight:bold;  width:20%; border-right:1px solid black; border-bottom:1px solid black;">RIGHT PD</td>
+                                    <td  style="text-align:center; padding:5px; font-size:16px; color:green; font-weight:bold;  width:20%; border-right:1px solid black; border-bottom:1px solid black;">LEFT PD</td>
+                                </tr>
+                                <tbody style="border:1px solid black;">
+                                    <tr>
+                                        <td  style="text-align:center; padding:5px; font-size:16px;  width:20%; border-right:1px solid black; border-bottom:1px solid black;"><span t-field="doc.pdr"></span></td>
+                                        <td  style="text-align:center; padding:5px; font-size:16px;  width:20%; border-right:1px solid black; border-bottom:1px solid black;"><span t-field="doc.pdl"></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+
+                            <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">Diagnosis for the client</div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.diagnosis_client"></span></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+
+                            <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">Notes for the Laboratory</div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.notes_laboratory"></span></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+
+                            <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">Optometrist internal observations</div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.optometrist_observation"></span></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+
+                            <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">REMARKS</div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.dr_notes"></span></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+
+                            <table style="margin-top:10px;">
+                                <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">Family Eye History</div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.family_eye_history"></span></div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            </table>
+
+                            <table style="margin-top:10px;">
+                                <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">Ocular History</div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.ocular_history"></span></div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            </table>
+
+                            <table style="margin-top:10px;">
+                                <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">Consultation</div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.consultation"></span></div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            </table>
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+
+
+
+                    </t>
+
+
+
+                </t>
+            </t>
+        </template>
+
+
+
+        <template id="sale_prescription_template">
+            <t t-call="web.html_container">
+                <t t-call="web.external_layout">
+                    <t t-foreach="docs" t-as="doc">
+
+                        <div>
+                            <style>
+                                .headings{
+                                font-size:16px;
+                                font-weight:bold;
+                                }
+                                .text
+                                {
+                                font-size:16px;
+                                font-family: sans-serif;
+                                }
+                            </style>
+                            <table width="25%">
+                                <tr>
+                                    <td class="headings">Doctor Name :</td>
+                                    <td class="text"><span t-field="doc.prescription_id.dr" ></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="headings">Prescription Date:</td>
+                                    <td  class="text"><span t-field="doc.prescription_id.checkup_date" ></span></td>
+                                </tr>
+                            </table>
+
+                            <table width="100%" style="margin-top:20px;">
+                                <tr>
+                                    <td width="50%">
+                                        <table width="60%">
+                                            <tr>
+                                                <td class="headings">Patient Name :</td>
+                                                <td class="text"><span t-field="doc.prescription_id.customer" ></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="headings">PatientAge:</td>
+                                                <td class="text"><span t-field="doc.prescription_id.customer_age"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="headings">Test Type:</td>
+                                                <td class="text"><span t-field="doc.prescription_id.test_type"></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="headings">Phone:</td>
+                                                <td class="text"><span t-field="doc.prescription_id.customer.phone" ></span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td  width="50%">
+                                        <table width="60%">
+                                            <tr>
+                                                <td class="headings">Street:</td>
+                                                <td class="text"><span t-field="doc.prescription_id.customer.street" ></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="headings">City:</td>
+                                                <td class="text"><span t-field="doc.prescription_id.customer.city" ></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="headings">Zip Code:</td>
+                                                <td class="text"><span t-field="doc.prescription_id.customer.zip" ></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="headings">Email:</td>
+                                                <td class="text"><span t-field="doc.prescription_id.customer.email" ></span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
+
+                             <table  cellspacing="0" cellpadding="0" style="border:1px solid; width:100%; margin-top:15px;">
+                                <tr>
+                                    <td rowspan="2" style="text-align:center; padding:5px; font-size:16px; font-weight:bold; width:7%; border-right:1px solid black; border-bottom:1px solid black;"></td>
+                                    <td  style="text-align:center; padding:5px; font-size:16px; font-weight:bold; width:40%; border-right:1px solid black; border-bottom:1px solid black;  font-size:16px; color:green; font-weight:bold; ">OD</td>
+                                    <td  style="text-align:center; padding:5px; font-size:16px; font-weight:bold; width:40%; border-right:1px solid black; border-bottom:1px solid black;  font-size:16px; color:green; font-weight:bold; ">OS</td>
+                                    <!--                                    <td rowspan="2" style="text-align:center; padding:5px; font-size:16px; font-weight:bold; width:3%; border-right:1px solid black; border-bottom:1px solid black;">PD</td>-->
+                                </tr>
+                                <tr>
+                                    <td  style="text-align:center;  font-size:16px; font-weight:bold; width:30%; border-right:1px solid black; border-bottom:1px solid black;">
+                                        <table  width="100%">
+                                            <tr>
+                                                <td style="border-right:1px solid;  font-size:16px; color:green; font-weight:bold;  width:15%">SPH</td>
+                                                <td style="border-right:1px solid;  font-size:16px; color:green; font-weight:bold;  width:15%">CYL</td>
+                                                <td style="border-right:1px solid;  font-size:16px; color:green; font-weight:bold;  width:15%">AXIS</td>
+                                                <td style="border-right:1px solid;  font-size:16px; color:green; font-weight:bold;  width:15%">Add</td>
+                                                <td style="border-right:1px solid;  font-size:16px; color:green; font-weight:bold;  width:15%">Prism</td>
+                                                <td style="width:15%  font-size:16px; color:green; font-weight:bold;  ">Base</td>
+
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                    <td  style="text-align:center;font-size:16px; font-weight:bold; width:5%; border-right:1px solid black; border-bottom:1px solid black;">
+                                        <table  width="100%">
+                                            <tr>
+                                                <td style="border-right:1px  font-size:16px; color:green; font-weight:bold;  solid; width:15%">SPH</td>
+                                                <td style="border-right:1px  font-size:16px; color:green; font-weight:bold;  solid; width:15%">CYL</td>
+                                                <td style="border-right:1px  font-size:16px; color:green; font-weight:bold;  solid; width:15%">AXIS</td>
+                                                <td style="border-right:1px   font-size:16px; color:green; font-weight:bold; solid; width:15%">Add</td>
+                                                <td style="border-right:1px   font-size:16px; color:green; font-weight:bold; solid; width:15%">Prism</td>
+                                                <td style="width:15%  font-size:16px; color:green; font-weight:bold;  ">Base</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="text-align:center; font-size:16px; font-weight:bold; width:5%; border-right:1px solid black; border-bottom:1px solid black;  font-size:16px; color:green; font-weight:bold; ">Distance</td>
+                                    <td  style="text-align:center;  font-size:16px; font-weight:bold; width:30%; border-right:1px solid black; border-bottom:1px solid black;">
+                                        <table  width="100%">
+                                            <tr>
+                                                <td style="border-right:1px solid;width:15%;"><span t-field="doc.prescription_id.od_sph_distance"></span></td>
+                                                <td   style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.od_cyl_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.od_ax_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.od_add_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.od_prism_distance"></span></td>
+                                                <td style=" width:15%"><span t-field="doc.prescription_id.od_base_distance"></span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td  style="text-align:center;  font-size:16px; font-weight:bold; width:30%; border-right:1px solid black; border-bottom:1px solid black;">
+                                        <table  width="100%">
+                                            <tr>
+                                                <td style="border-right:1px solid;  width:15%"><span t-field="doc.prescription_id.os_sph_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.os_cyl_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.os_ax_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.os_add_distance"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.os_prism_distance"></span></td>
+                                                <td style="width:15%"><span t-field="doc.prescription_id.os_prism_distance"></span></td>
+
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td style="text-align:center; font-size:16px; font-weight:bold; width:7%; border-right:1px solid black; border-bottom:1px solid black;  font-size:16px; color:green; font-weight:bold;  ">Near</td>
+                                    <td  style="text-align:center;  font-size:16px; font-weight:bold; width:40%; border-right:1px solid black; border-bottom:1px solid black;">
+                                        <table cellspacing="0" cellpadding="0"  width="100%">
+                                            <tr>
+                                                <td  style="border-right:1px solid;width:15%;"><span t-field="doc.prescription_id.od_sph_near"></span></td>
+                                                <td   style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.od_cyl_near"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.od_ax_near"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.od_add_near"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.od_prism_near"></span></td>
+                                                <td style=" width:15%"><span t-field="doc.prescription_id.od_base_near"></span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td  style="text-align:center;  font-size:16px; font-weight:bold; width:40%; border-right:1px solid black; border-bottom:1px solid black;">
+                                        <table cellspacing="0" cellpadding="0"  width="100%">
+                                            <tr>
+                                                <td   style="border-right:1px solid;width:15%;"><span t-field="doc.prescription_id.os_sph_near"></span></td>
+                                                <td   style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.os_cyl_near"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.os_ax_near"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.os_add_near"></span></td>
+                                                <td style="border-right:1px solid; width:15%"><span t-field="doc.prescription_id.os_prism_near"></span></td>
+                                                <td style="width:15%"><span t-field="doc.prescription_id.os_base_near"></span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table t-if="doc.prescription_id.dual_pd == True" style="width:20%; margin-top:30px; border:1px solid black;">
+                                <tr>
+                                    <td  style="text-align:center; padding:5px; font-size:16px; color:green; font-weight:bold;  width:20%; border-right:1px solid black; border-bottom:1px solid black;">RIGHT PD</td>
+                                    <td  style="text-align:center; padding:5px; font-size:16px; color:green; font-weight:bold;  width:20%; border-right:1px solid black; border-bottom:1px solid black;">LEFT PD</td>
+                                </tr>
+                                <tbody style="border:1px solid black;">
+                                    <tr>
+                                        <td  style="text-align:center; padding:5px; font-size:16px;  width:20%; border-right:1px solid black; border-bottom:1px solid black;"><span t-field="doc.prescription_id.pdr"></span></td>
+                                        <td  style="text-align:center; padding:5px; font-size:16px;  width:20%; border-right:1px solid black; border-bottom:1px solid black;"><span t-field="doc.prescription_id.pdl"></span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">Diagnosis for the client</div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.prescription_id.diagnosis_client"></span></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">Notes for the Laboratory</div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.prescription_id.notes_laboratory"></span></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+
+                            <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">Optometrist internal observations</div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.prescription_id.optometrist_observation"></span></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+
+
+
+
+
+                            <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">REMARKS</div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.prescription_id.dr_notes"></span></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+
+                            <table style="margin-top:10px;">
+                                <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">Family Eye History</div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.prescription_id.family_eye_history"></span></div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            </table>
+
+                            <table style="margin-top:10px;">
+                                <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">Ocular History</div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.prescription_id.ocular_history"></span></div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            </table>
+
+                            <table style="margin-top:10px;">
+                                <div  style="width:100%; margin-top:30px; font-weight:bold; font-size:16px;" class="headings">Consultation</div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"><span t-field="doc.prescription_id.consultation"></span></div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                                <div  style="width:100%; margin-top:30px; border-bottom:2px solid black;"></div>
+                            </table>
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+
+
+
+                    </t>
+
+
+
+                </t>
+            </t>
+        </template>
+
+
+    </data>
+</odoo>

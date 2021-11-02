@@ -1,0 +1,263 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* flexiretail_invoicing_pe
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0-20190818\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27 21:50+0000\n"
+"PO-Revision-Date: 2019-09-27 21:50+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:113
+#, python-format
+msgid "% discount"
+msgstr "% descuento"
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:242
+#, python-format
+msgid "CE.:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:104
+#, python-format
+msgid "Cant."
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:245
+#, python-format
+msgid "Ced.Diplomática:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:203
+#, python-format
+msgid "Change:"
+msgstr "Cambio:"
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/js/invoice_cpe.js:92
+#, python-format
+msgid "Could not get the number"
+msgstr "No se pudo obtener el número"
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:241
+#, python-format
+msgid "DNI:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:215
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:227
+#, python-format
+msgid "Destinatario:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:214
+#, python-format
+msgid "Detalles de Delivery"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:224
+#, python-format
+msgid "Direccion:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:74
+#, python-format
+msgid "Fecha y hora:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:218
+#, python-format
+msgid "Fecha:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:221
+#, python-format
+msgid "Hora:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:169
+#, python-format
+msgid "Importe Total:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/js/invoice_cpe.js:46
+#, python-format
+msgid "It is required to Select a Journal"
+msgstr "Es necesario seleccionar un diario"
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:79
+#, python-format
+msgid "Local:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:155
+#, python-format
+msgid "Op. Exoneradas:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:149
+#, python-format
+msgid "Op. Gravadas:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:240
+#, python-format
+msgid "Otro tipo de documento:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:105
+#, python-format
+msgid "P.Unit"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:244
+#, python-format
+msgid "Pasaporte:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:71
+#, python-format
+msgid "Pedido:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:53
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:83
+#, python-format
+msgid "Phone:"
+msgstr "Telf:"
+
+#. module: flexiretail_invoicing_pe
+#: model:ir.model,name:flexiretail_invoicing_pe.model_report_point_of_sale_report_invoice
+msgid "Point of Sale Invoice Report"
+msgstr "Reporte de Facturas del Punto de Venta"
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:103
+#, python-format
+msgid "Producto"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:243
+#, python-format
+msgid "RUC:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:28
+#, python-format
+msgid "RUC:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:176
+#, python-format
+msgid "SON"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:253
+#, python-format
+msgid "Street:"
+msgstr "Dirección:"
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:136
+#, python-format
+msgid "TOTAL A PAGAR:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:106
+#, python-format
+msgid "Total"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:142
+#, python-format
+msgid "Total descuentos:"
+msgstr ""
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:88
+#, python-format
+msgid "User:"
+msgstr "Usuario:"
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:112
+#, python-format
+msgid "With a"
+msgstr "Con"
+
+#. module: flexiretail_invoicing_pe
+#. openerp-web
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:38
+#: code:addons/flexiretail_invoicing_pe/static/src/xml/pos.xml:42
+#, python-format
+msgid "street:"
+msgstr "Dirección:"
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<record id="doctor_view_form" model="ir.ui.view">
+			<field name="name">doctor.view.form</field>
+			<field name="model">optical.dr</field>
+			<field name="inherit_id" ref="doctor.dr_doctor"/>
+			<field name="arch" type="xml">
+				<xpath expr="//div[hasclass('oe_button_box')]" position="inside">
+					<button name="open_doctor_prescriptions" class="oe_stat_button" type="object"  icon="fa-tasks">
+						<field string="Prescription" name="prescription_count" widget="statinfo"/>
+					</button>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</odoo>

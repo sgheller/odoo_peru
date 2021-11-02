@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <data>
+
+        <report
+                id="doctor_prescription"
+                string="Doctor Prescription"
+                model="dr.prescription"
+                report_type="qweb-pdf"
+                file="optical_erp.doctor_prescription_template"
+                name="optical_erp.doctor_prescription_template"
+                />
+
+        <report
+                id="sale_prescription"
+                string="Sale Prescription"
+                model="sale.order"
+                report_type="qweb-pdf"
+                file="optical_erp.sale_prescription_template"
+                name="optical_erp.sale_prescription_template"
+                />
+    </data>
+</odoo>

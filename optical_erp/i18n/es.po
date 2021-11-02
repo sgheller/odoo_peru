@@ -1,0 +1,2901 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* optical_erp
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0-20201030\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-01 19:02+0000\n"
+"PO-Revision-Date: 2021-02-01 19:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__+0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__+0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__+0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__+0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+0_25
+msgid "+0.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__+0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__+0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__+0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__+0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+0_50
+msgid "+0.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+0_75
+msgid "+0.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__+1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__+1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__+1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__+1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+1_00
+msgid "+1.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__+1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__+1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__+1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__+1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+1_25
+msgid "+1.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__+1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__+1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__+1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__+1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+1_50
+msgid "+1.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+1_75
+msgid "+1.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__+2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__+2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__+2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__+2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+2_00
+msgid "+2.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__+2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__+2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__+2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__+2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+2_25
+msgid "+2.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__+2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__+2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__+2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__+2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+2_50
+msgid "+2.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+2_75
+msgid "+2.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+3_00
+msgid "+3.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__+3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__+3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__+3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__+3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+3_25
+msgid "+3.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__+3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__+3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__+3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__+3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__+3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__+3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__+3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__+3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+3_50
+msgid "+3.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__+3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__+3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__+3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__+3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+3_75
+msgid "+3.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__+4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__+4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__+4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__+4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+4_00
+msgid "+4.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+4_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+4_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+4_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+4_25
+msgid "+4.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+4_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+4_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+4_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+4_50
+msgid "+4.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+4_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+4_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+4_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+4_75
+msgid "+4.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+5_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+5_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+5_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+5_00
+msgid "+5.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+5_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+5_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+5_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+5_25
+msgid "+5.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+5_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+5_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+5_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+5_50
+msgid "+5.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+5_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+5_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+5_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+5_75
+msgid "+5.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+6_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+6_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+6_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+6_00
+msgid "+6.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+6_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+6_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+6_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+6_25
+msgid "+6.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+6_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+6_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+6_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+6_50
+msgid "+6.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__+6_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__+6_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__+6_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__+6_75
+msgid "+6.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-0_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-0_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-0_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-0_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-0_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-0_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-0_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-0_00
+msgid "-0.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-0_25
+msgid "-0.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-0_50
+msgid "-0.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__0_75
+msgid "-0.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-1_00
+msgid "-1.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-1_25
+msgid "-1.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-1_50
+msgid "-1.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-1_75
+msgid "-1.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-2_00
+msgid "-2.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-2_25
+msgid "-2.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-2_50
+msgid "-2.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-2_75
+msgid "-2.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-3_00
+msgid "-3.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-3_25
+msgid "-3.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_distance__-3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_cyl_near__-3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_distance__-3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_cyl_near__-3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-3_50
+msgid "-3.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-3_75
+msgid "-3.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-4_00
+msgid "-4.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-4_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-4_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-4_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-4_25
+msgid "-4.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-4_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-4_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-4_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-4_50
+msgid "-4.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-4_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-4_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-4_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-4_75
+msgid "-4.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-5_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-5_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-5_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-5_00
+msgid "-5.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-5_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-5_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-5_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-5_25
+msgid "-5.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-5_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-5_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-5_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-5_50
+msgid "-5.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-5_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-5_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-5_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-5_75
+msgid "-5.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-6_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-6_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-6_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-6_00
+msgid "-6.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-6_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-6_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-6_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-6_25
+msgid "-6.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-6_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-6_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-6_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-6_50
+msgid "-6.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-6_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-6_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-6_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-6_75
+msgid "-6.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-7_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-7_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-7_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-7_00
+msgid "-7.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-7_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-7_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-7_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-7_25
+msgid "-7.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-7_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-7_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-7_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-7_50
+msgid "-7.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-7_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-7_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-7_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-7_75
+msgid "-7.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_distance__-8_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_sph_near__-8_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_distance__-8_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_sph_near__-8_00
+msgid "-8.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_distance__0_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_add_near__0_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_distance__0_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_add_near__0_00
+msgid "0.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__0_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__0_25
+msgid "0.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__0_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__0_50
+msgid "0.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__0_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__0_75
+msgid "0.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__1_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__1_00
+msgid "1.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__1_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__1_25
+msgid "1.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__1_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__1_50
+msgid "1.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__1_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__1_75
+msgid "1.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__10
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__10
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__10
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__10
+msgid "10"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__100
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__100
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__100
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__100
+msgid "100"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__101
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__101
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__101
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__101
+msgid "101"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__102
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__102
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__102
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__102
+msgid "102"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__103
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__103
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__103
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__103
+msgid "103"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__104
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__104
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__104
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__104
+msgid "104"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__105
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__105
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__105
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__105
+msgid "105"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__106
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__106
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__106
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__106
+msgid "106"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__107
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__107
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__107
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__107
+msgid "107"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__108
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__108
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__108
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__108
+msgid "108"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__109
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__109
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__109
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__109
+msgid "109"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__11
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__11
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__11
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__11
+msgid "11"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__110
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__110
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__110
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__110
+msgid "110"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__111
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__111
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__111
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__111
+msgid "111"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__112
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__112
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__112
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__112
+msgid "112"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__113
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__113
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__113
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__113
+msgid "113"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__114
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__114
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__114
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__114
+msgid "114"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__115
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__115
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__115
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__115
+msgid "115"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__116
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__116
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__116
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__116
+msgid "116"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__117
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__117
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__117
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__117
+msgid "117"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__118
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__118
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__118
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__118
+msgid "118"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__119
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__119
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__119
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__119
+msgid "119"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__12
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__12
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__12
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__12
+msgid "12"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__120
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__120
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__120
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__120
+msgid "120"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__121
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__121
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__121
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__121
+msgid "121"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__122
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__122
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__122
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__122
+msgid "122"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__123
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__123
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__123
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__123
+msgid "123"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__124
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__124
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__124
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__124
+msgid "124"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__125
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__125
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__125
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__125
+msgid "125"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__126
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__126
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__126
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__126
+msgid "126"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__127
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__127
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__127
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__127
+msgid "127"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__128
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__128
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__128
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__128
+msgid "128"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__129
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__129
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__129
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__129
+msgid "129"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__13
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__13
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__13
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__13
+msgid "13"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__130
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__130
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__130
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__130
+msgid "130"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__131
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__131
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__131
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__131
+msgid "131"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__132
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__132
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__132
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__132
+msgid "132"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__133
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__133
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__133
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__133
+msgid "133"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__134
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__134
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__134
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__134
+msgid "134"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__135
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__135
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__135
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__135
+msgid "135"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__136
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__136
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__136
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__136
+msgid "136"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__137
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__137
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__137
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__137
+msgid "137"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__138
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__138
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__138
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__138
+msgid "138"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__139
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__139
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__139
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__139
+msgid "139"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__14
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__14
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__14
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__14
+msgid "14"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__140
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__140
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__140
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__140
+msgid "140"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__141
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__141
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__141
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__141
+msgid "141"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__142
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__142
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__142
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__142
+msgid "142"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__143
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__143
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__143
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__143
+msgid "143"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__144
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__144
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__144
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__144
+msgid "144"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__145
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__145
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__145
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__145
+msgid "145"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__146
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__146
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__146
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__146
+msgid "146"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__147
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__147
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__147
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__147
+msgid "147"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__148
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__148
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__148
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__148
+msgid "148"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__149
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__149
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__149
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__149
+msgid "149"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__15
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__15
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__15
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__15
+msgid "15"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__150
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__150
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__150
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__150
+msgid "150"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__151
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__151
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__151
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__151
+msgid "151"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__152
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__152
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__152
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__152
+msgid "152"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__153
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__153
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__153
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__153
+msgid "153"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__154
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__154
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__154
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__154
+msgid "154"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__155
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__155
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__155
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__155
+msgid "155"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__156
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__156
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__156
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__156
+msgid "156"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__157
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__157
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__157
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__157
+msgid "157"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__158
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__158
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__158
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__158
+msgid "158"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__159
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__159
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__159
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__159
+msgid "159"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__16
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__16
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__16
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__16
+msgid "16"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__169
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__169
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__169
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__169
+msgid "160"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__161
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__161
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__161
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__161
+msgid "161"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__162
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__162
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__162
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__162
+msgid "162"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__163
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__163
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__163
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__163
+msgid "163"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__164
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__164
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__164
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__164
+msgid "164"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__165
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__165
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__165
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__165
+msgid "165"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__1166
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__1166
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__1166
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__1166
+msgid "166"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__167
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__167
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__167
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__167
+msgid "167"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__168
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__168
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__168
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__168
+msgid "168"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__17
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__17
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__17
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__17
+msgid "17"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__170
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__170
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__170
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__170
+msgid "170"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__175
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__175
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__175
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__175
+msgid "175"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__176
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__176
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__176
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__176
+msgid "176"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__177
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__177
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__177
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__177
+msgid "177"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__178
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__178
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__178
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__178
+msgid "178"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__18
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__18
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__18
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__18
+msgid "18"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__180
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__180
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__180
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__180
+msgid "180"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__19
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__19
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__19
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__19
+msgid "19"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__2_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__2_00
+msgid "2.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__2_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__2_25
+msgid "2.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__2_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__2_50
+msgid "2.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__2_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__2_75
+msgid "2.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__20
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__20
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__20
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__20
+msgid "20"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__21
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__21
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__21
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__21
+msgid "21"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__22
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__22
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__22
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__22
+msgid "22"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__23
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__23
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__23
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__23
+msgid "23"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__24
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__24
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__24
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__24
+msgid "24"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__25
+msgid "25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__26
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__26
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__26
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__26
+msgid "26"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__27
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__27
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__27
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__27
+msgid "27"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__28
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__28
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__28
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__28
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdl__28
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdr__28
+msgid "28"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdl__28_5
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdr__28_5
+msgid "28.5"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__29
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__29
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__29
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__29
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdl__29
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdr__29
+msgid "29"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdl__29_5
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdr__29_5
+msgid "29.5"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__3_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__3_00
+msgid "3.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__3_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__3_25
+msgid "3.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__3_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__3_50
+msgid "3.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__3_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__3_75
+msgid "3.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__30
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__30
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__30
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__30
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdl__30
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdr__30
+msgid "30"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdl__30_5
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdr__30_5
+msgid "30.5"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__31
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__31
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__31
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__31
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdl__31
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdr__31
+msgid "31"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdl__31_5
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pdr__31_5
+msgid "31.5"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__32
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__32
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__32
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__32
+msgid "32"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__33
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__33
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__33
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__33
+msgid "33"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__34
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__34
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__34
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__34
+msgid "34"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__35
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__35
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__35
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__35
+msgid "35"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__36
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__36
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__36
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__36
+msgid "36"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__37
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__37
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__37
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__37
+msgid "37"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__38
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__38
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__38
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__38
+msgid "38"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__39
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__39
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__39
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__39
+msgid "39"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__4_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__4_00
+msgid "4.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__4_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__4_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__4_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__4_25
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__4_25
+msgid "4.25"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__4_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__4_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__4_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__4_50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__4_50
+msgid "4.50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__4_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__4_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__4_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__4_75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__4_75
+msgid "4.75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__40
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__40
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__40
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__40
+msgid "40"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__41
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__41
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__41
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__41
+msgid "41"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__42
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__42
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__42
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__42
+msgid "42"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__43
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__43
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__43
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__43
+msgid "43"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__44
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__44
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__44
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__44
+msgid "44"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__45
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__45
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__45
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__45
+msgid "45"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__46
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__46
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__46
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__46
+msgid "46"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__47
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__47
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__47
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__47
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd__47
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_distance__47
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_near__47
+msgid "47"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__48
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__48
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__48
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__48
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd__48
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_distance__48
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_near__48
+msgid "48"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__49
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__49
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__49
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__49
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd__49
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_distance__49
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_near__49
+msgid "49"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_distance__5_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_prism_near__5_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_distance__5_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_prism_near__5_00
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prism_vall__5_00
+msgid "5.00"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd__50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_distance__50
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_near__50
+msgid "50"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__51
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__51
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__51
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__51
+msgid "51"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__52
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__52
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__52
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__52
+msgid "52"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__53
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__53
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__53
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__53
+msgid "53"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__54
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__54
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__54
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__54
+msgid "54"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__55
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__55
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__55
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__55
+msgid "55"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__56
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__56
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__56
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__56
+msgid "56"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__57
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__57
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__57
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__57
+msgid "57"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__58
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__58
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__58
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__58
+msgid "58"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__59
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__59
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__59
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__59
+msgid "59"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__160
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__60
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__69
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__160
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__60
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__69
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__160
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__60
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__69
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__160
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__60
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__69
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd__60
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_distance__60
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_near__60
+msgid "60"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__61
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__61
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__61
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__61
+msgid "61"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__62
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__62
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__62
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__62
+msgid "62"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__63
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__63
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__63
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__63
+msgid "63"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__64
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__64
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__64
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__64
+msgid "64"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__65
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__65
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__65
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__65
+msgid "65"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__66
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__66
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__66
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__66
+msgid "66"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__67
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__67
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__67
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__67
+msgid "67"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__68
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__68
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__68
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__68
+msgid "68"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__70
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__70
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__70
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__70
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd__70
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_distance__70
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_near__70
+msgid "70"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__171
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__71
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__171
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__71
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__171
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__71
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__171
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__71
+msgid "71"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__72
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__72
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__72
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__72
+msgid "72"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__73
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__73
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__73
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__73
+msgid "73"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__74
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__74
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__74
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__74
+msgid "74"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__75
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__75
+msgid "75"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__76
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__76
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__76
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__76
+msgid "76"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__77
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__77
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__77
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__77
+msgid "77"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__78
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__78
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__78
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__78
+msgid "78"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__179
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__79
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__179
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__79
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__179
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__79
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__179
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__79
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd__79
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_distance__79
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__pd_near__79
+msgid "79"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__80
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__80
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__80
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__80
+msgid "80"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__81
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__81
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__81
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__81
+msgid "81"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__82
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__82
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__82
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__82
+msgid "82"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__83
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__83
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__83
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__83
+msgid "83"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__84
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__84
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__84
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__84
+msgid "84"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__85
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__85
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__85
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__85
+msgid "85"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__86
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__86
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__86
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__86
+msgid "86"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__87
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__87
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__87
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__87
+msgid "87"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__88
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__88
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__88
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__88
+msgid "88"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__89
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__89
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__89
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__89
+msgid "89"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__90
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__90
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__90
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__90
+msgid "90"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__91
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__91
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__91
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__91
+msgid "91"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__92
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__92
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__92
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__92
+msgid "92"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__93
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__93
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__93
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__93
+msgid "93"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__94
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__94
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__94
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__94
+msgid "94"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__95
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__95
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__95
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__95
+msgid "95"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__96
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__96
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__96
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__96
+msgid "96"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__97
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__97
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__97
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__97
+msgid "97"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__98
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__98
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__98
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__98
+msgid "98"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_distance__99
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_ax_near__99
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_distance__99
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_ax_near__99
+msgid "99"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.optical_erp_settings_view_form
+msgid "<span class=\"o_form_label\">Eye Examination Chargeable</span>"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "AXIS"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__od_add_distance
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__os_add_distance
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Add"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__od_add_near
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__os_add_near
+msgid "Addl"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__customer_age
+#: model:ir.model.fields,field_description:optical_erp.field_optical_dr__age
+#: model:ir.model.fields,field_description:optical_erp.field_res_partner__age
+#: model:ir.model.fields,field_description:optical_erp.field_res_users__age
+#: model_terms:ir.ui.view,arch_db:optical_erp.partner_view_form_inherit
+msgid "Age"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__od_ax_distance
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__od_ax_near
+msgid "Ax"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__os_ax_distance
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__os_ax_near
+msgid "Axl"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Base"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "CYL"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__checkup_date
+#: model:ir.model.fields,field_description:optical_erp.field_sale_order__prescription_date
+msgid "Checkup Date"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "City:"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model,name:optical_erp.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de Configuración"
+
+#. module: optical_erp
+#: model:ir.ui.menu,name:optical_erp.optical_erp_config
+msgid "Configuration"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__state__confirm
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+msgid "Confirm"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__consultation
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Consultation"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+msgid "Consultation Reason"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model,name:optical_erp.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+msgid "Create Sale Order"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__create_uid
+#: model:ir.model.fields,field_description:optical_erp.field_eye_test_type__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__create_date
+#: model:ir.model.fields,field_description:optical_erp.field_eye_test_type__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__customer
+#: model:ir.ui.menu,name:optical_erp.optical_erp_customer
+msgid "Customer"
+msgstr "cliente"
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__od_cyl_distance
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__od_cyl_near
+msgid "Cyl"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__os_cyl_distance
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__os_cyl_near
+msgid "Cyll"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__basel__down
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_base_distance__down
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_base_near__down
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_base_distance__down
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_base_near__down
+msgid "DOWN"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__diagnosis_client
+msgid "Diagnosis Client"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Diagnosis for the client"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__dim
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__diml
+msgid "Dim"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__display_name
+#: model:ir.model.fields,field_description:optical_erp.field_eye_test_type__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Distance"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_optical_dr__dob
+#: model:ir.model.fields,field_description:optical_erp.field_res_partner__dob
+#: model:ir.model.fields,field_description:optical_erp.field_res_users__dob
+#: model_terms:ir.ui.view,arch_db:optical_erp.partner_view_form_inherit
+msgid "Dob"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Doctor Name :"
+msgstr ""
+
+#. module: optical_erp
+#: code:addons/optical_erp/models/doctor.py:0
+#: code:addons/optical_erp/models/dr_prescription.py:0
+#: code:addons/optical_erp/models/dr_prescription.py:0
+#: model:ir.actions.report,name:optical_erp.doctor_prescription
+#: model:ir.model,name:optical_erp.model_dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#, python-format
+msgid "Doctor Prescription"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__state__draft
+msgid "Draft"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Email:"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prescription_type__external
+msgid "External"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__eye_examination_chargeable
+#: model:ir.model.fields,field_description:optical_erp.field_res_config_settings__eye_examination_chargeable
+msgid "Eye Examination Chargeable"
+msgstr ""
+
+#. module: optical_erp
+#: model:product.product,name:optical_erp.optical_erp_product
+#: model:product.template,name:optical_erp.optical_erp_product_product_template
+msgid "Eye Examination charges"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.eye_test_type_form
+msgid "Eye Test Config"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.actions.act_window,name:optical_erp.action_config
+msgid "Eye Test Type"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__family_eye_history
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Family Eye History"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__height
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__heightl
+msgid "Height"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__dual_pd
+msgid "I have Dual PD"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__id
+#: model:ir.model.fields,field_description:optical_erp.field_eye_test_type__id
+msgid "ID"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__basel__in
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_base_distance__in
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_base_near__in
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_base_distance__in
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_base_near__in
+msgid "IN"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__prescription_type__internal
+msgid "Internal"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "LEFT PD"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.ui.menu,name:optical_erp.optical_erp_test_type
+msgid "Lab Test Type"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription____last_update
+#: model:ir.model.fields,field_description:optical_erp.field_eye_test_type____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__write_uid
+#: model:ir.model.fields,field_description:optical_erp.field_eye_test_type__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__write_date
+#: model:ir.model.fields,field_description:optical_erp.field_eye_test_type__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__name
+#: model:ir.model.fields,field_description:optical_erp.field_sale_order__doctor
+msgid "Name"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Near"
+msgstr ""
+
+#. module: optical_erp
+#: code:addons/optical_erp/models/dr_prescription.py:0
+#: code:addons/optical_erp/models/dr_prescription.py:0
+#, python-format
+msgid "New"
+msgstr "Nuevo"
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+msgid "Note"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__dr_notes
+msgid "Notes"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__notes_laboratory
+msgid "Notes Laboratory"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Notes for the Laboratory"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "OD"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "OS"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__basel__out
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_base_distance__out
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_base_near__out
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_base_distance__out
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_base_near__out
+msgid "OUT"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__ocular_history
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Ocular History"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.ui.menu,name:optical_erp.optical_erp_root
+#: model_terms:ir.ui.view,arch_db:optical_erp.optical_erp_settings_view_form
+msgid "Optical Erp"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.optical_erp_settings_view_form
+msgid "Optical Erp Settings"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__dr
+#: model:ir.ui.menu,name:optical_erp.optical_erp_doctor
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_order_view_form
+msgid "Optometrist"
+msgstr "Optometrista"
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__optometrist_observation
+msgid "Optometrist Observation"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Optometrist internal observations"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__pd
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__pd_distance
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__pd_near
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+msgid "PD"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__pdl
+msgid "PDL"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__pdr
+msgid "PDR"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Patient Name :"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "PatientAge:"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Phone:"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.actions.act_window,name:optical_erp.action_prescription_history_window
+#: model:ir.model.fields,field_description:optical_erp.field_sale_order__prescription_id
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_view_form
+#: model_terms:ir.ui.view,arch_db:optical_erp.partner_view_form_inherit
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_order_view_form
+msgid "Prescription"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_optical_dr__prescription_count
+#: model:ir.model.fields,field_description:optical_erp.field_res_partner__prescription_count
+#: model:ir.model.fields,field_description:optical_erp.field_res_users__prescription_count
+msgid "Prescription Count"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription_tree
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_order_view_form
+msgid "Prescription Date"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Prescription Date:"
+msgstr ""
+
+#. module: optical_erp
+#: code:addons/optical_erp/models/res_partner.py:0
+#: model:ir.ui.menu,name:optical_erp.optical_erp_prescription_history
+#, python-format
+msgid "Prescription History"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__prescription_type
+msgid "Prescription Type"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription_tree
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_order_view_form
+msgid "Print Prescription"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__prism
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__prisml
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Prism"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__prism_vall
+msgid "PrismL"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__od_prism_distance
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__od_prism_near
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__os_prism_distance
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__os_prism_near
+msgid "PrismR"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "REMARKS"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "RIGHT PD"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+msgid "Recommendations"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "SPH"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.ui.menu,name:optical_erp.optical_erp_sale_order
+msgid "Sale Order"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.actions.report,name:optical_erp.sale_prescription
+msgid "Sale Prescription"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model,name:optical_erp.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__basel__select
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_base_distance__select
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_base_near__select
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_base_distance__select
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_base_near__select
+msgid "Select"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.actions.act_window,name:optical_erp.action_optical_erp_config_settings
+#: model:ir.ui.menu,name:optical_erp.menu_optical_erp_settings
+msgid "Settings"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__od_sph_distance
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__od_sph_near
+msgid "Sph"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__os_sph_distance
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__os_sph_near
+msgid "Sphl"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__state
+msgid "State"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Street:"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__test_type
+msgid "Test Type"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Test Type:"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_eye_test_type__name
+msgid "Test_type"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__basel__up
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_base_distance__up
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__od_base_near__up
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_base_distance__up
+#: model:ir.model.fields.selection,name:optical_erp.selection__dr_prescription__os_base_near__up
+msgid "UP"
+msgstr ""
+
+#. module: optical_erp
+#: model:product.product,uom_name:optical_erp.optical_erp_product
+#: model:product.template,uom_name:optical_erp.optical_erp_product_product_template
+msgid "Units"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.doctor_prescription_template
+#: model_terms:ir.ui.view,arch_db:optical_erp.sale_prescription_template
+msgid "Zip Code:"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__basel
+msgid "basel"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__od_base_distance
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__od_base_near
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__os_base_distance
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__os_base_near
+msgid "baser"
+msgstr ""
+
+#. module: optical_erp
+#: model_terms:ir.ui.view,arch_db:optical_erp.dr_prescription
+msgid "customer Age"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model,name:optical_erp.model_eye_test_type
+msgid "eye.test.type"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__lpd
+#: model:ir.model.fields,field_description:optical_erp.field_dr_prescription__lpdl
+msgid "lpd"
+msgstr ""
+
+#. module: optical_erp
+#: model:ir.model,name:optical_erp.model_optical_dr
+msgid "optical.dr"
+msgstr ""
