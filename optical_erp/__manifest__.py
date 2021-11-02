@@ -20,6 +20,7 @@
         "security/ir.model.access.csv",
         "data/data.xml",
         "data/sequence.xml",
+        #"data/ir_cron.xml", #Nuevo 2021-10-30
         "report/reports.xml",
         "report/prescription_report.xml",
         "views/prescription.xml",
@@ -29,6 +30,7 @@
         'views/pos_template.xml',
         'views/pos_order_view.xml',
         'views/product_attribute_view.xml',
+        'views/product_template_views.xml',#Nuevo 2021-10-30
         'data/optical_pos_product_variants.xml',
     ],
     'qweb': ['static/src/xml/pos.xml', 'static/src/xml/prescription_history.xml'],

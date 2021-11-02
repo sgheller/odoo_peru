@@ -1019,6 +1019,12 @@ class pos_order(models.Model):
                 pos_order.action_pos_order_invoice()
                 pos_order.invoice_id.sudo().action_invoice_open()
                 pos_order.account_move = pos_order.invoice_id.move_id
+                # #Nuevo jhonny: 2021-10-31
+                # if pos_order.invoice_id:
+                #     if pos_order.amount_paid == pos_order.amount_total:
+                #         # End jhonny: 2021-10-31
+                #         pos_order.invoice_id.sudo().action_invoice_open()
+                #         pos_order.account_move = pos_order.invoice_id.move_id
         return order_ids
 
     @api.model
@@ -2590,6 +2596,15 @@ class pos_session(models.Model):
                     order.action_pos_order_done()
             orders_to_reconcile = session.order_ids._filtered_for_reconciliation()
             orders_to_reconcile.sudo()._reconcile_payments()
+
+            #Nuevo: Jhonny Merino
+            self._get_other_orders(session)
+
+
+    def _get_other_orders(self, session):
+        orders_to_reconcile = session.order_other_ids._filtered_for_reconciliation()
+        orders_to_reconcile.sudo()._reconcile_payments()
+
 
     @api.multi
     def action_pos_session_open(self):

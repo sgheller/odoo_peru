@@ -7,6 +7,8 @@
 
                 <t t-call="flexiretail_com_advance.assets_gmaps"/>
 
+                <script type="text/javascript" src="/flexiretail_com_advance/static/src/js/swal.min.js"></script> <!--NUEVO 2021-10-31-->
+                <script type="text/javascript" src="/flexiretail_com_advance/static/src/js/pago_popup.js"></script>
                 <script type="text/javascript" src="/flexiretail_com_advance/static/src/js/screens.js"></script>
                 <script type="text/javascript" src="/flexiretail_com_advance/static/src/js/models.js"></script>
                 <script type="text/javascript" src="/flexiretail_com_advance/static/src/js/chrome.js"></script>
@@ -26,6 +28,7 @@
                 <link rel="stylesheet" type="text/css"
                       href="/flexiretail_com_advance/static/src/css/multi_terminal_lock.css"/>
                 <link rel="stylesheet" type="text/css" href="/flexiretail_com_advance/static/src/css/pos.css"/>
+                <link rel="stylesheet" type="text/css" href="/flexiretail_com_advance/static/src/css/custom.css"/>
                 <link rel="stylesheet" type="text/css" href="/flexiretail_com_advance/static/src/css/order_screen.css"/>
                 <link rel="stylesheet" type="text/css" href="/flexiretail_com_advance/static/src/css/datepicker.css"/>
                 <link rel="stylesheet" type="text/css" href="/flexiretail_com_advance/static/src/css/login.css"/>

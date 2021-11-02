@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+        <record id="product_template_only_form_view" model="ir.ui.view">
+            <field name="name">product.product.form.inherit</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//page[@name='variants']/field[1]" position="before">
+                    <button name="generate_combinations" type="object" string="Generar combinaciones" class="oe_highlight" icon="fa-sitemap"/>
+                    <br/>
+                    <p class="oe_grey mt-3">
+                        <strong>Nota:</strong>
+                        Se recomienda guardar el producto y luego generar las combinaciones de forma manual.
+                    </p>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

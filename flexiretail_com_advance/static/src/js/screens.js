@@ -2524,7 +2524,10 @@ odoo.define('flexiretail_com_advance.screens', function (require) {
             });
             if(self.clicked_order){
                 this.$('.pay').click(function(){
-                    self.pos.gui.screen_instances.orderlist.pay_order_due(false, order_id)
+                    var t = self;
+                    var o = t.clicked_order;
+                    t.gui.show_popup('paid_popup', {order_id: o,amount_due: o.amount_due});
+                    //self.pos.gui.screen_instances.orderlist.pay_order_due(false, order_id)
                 });
                 var contents = this.$('.order-details-contents');
                 contents.append($(QWeb.render('OrderDetails',{widget:this, order:self.clicked_order})));

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="ir_cron_product_combinations" model="ir.cron">
+        <field name="name">Realizar todas las posibles combinaciones</field>
+        <field name="interval_number">12</field>
+        <field name="interval_type">months</field>
+        <field name="numbercall">-1</field>
+        <field name="doall" eval="False"/>
+        <field name="model_id" ref="product.model_product_product"/>
+        <field name="code">model._generate_combinations(['00418220'])</field>
+        <field name="state">code</field>
+    </record>
+</odoo>

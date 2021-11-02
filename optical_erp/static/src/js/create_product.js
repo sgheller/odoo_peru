@@ -210,20 +210,96 @@ odoo.define('pos_prescription_creation',function(require) {
         },
         _onChange: function(){
             var vals = $("#order_form").serializeObject();
-            variants = []
+            var variants = []
             $('#glasses').html("");
+
+            var all_vals = []
+            for (const property in vals) {
+              all_vals.push(property);
+            }
+
             self.pos.optical.glasses.forEach(function(optical_glass){
                 optical_glass.attribute_line_ids.forEach(function(attribute_line_id){
-                    variants.push(self.pos.optical.product_attributes_lines_by_id[attribute_line_id].display_name);
-                })
-                optical_glass.product_variant_ids.forEach(function(product_template){
-                    if (variants.every(function(variant){return self.pos.db.product_by_id[product_template].display_name.includes(vals[variant])})){
-                        $('#glasses').append($('<option>', {
-                            value: product_template,
-                            text: self.pos.db.product_by_id[product_template].display_name
-                        }));
+                    var display_name = self.pos.optical.product_attributes_lines_by_id[attribute_line_id].display_name;
+                    for(var r=0; r<all_vals.length; r++){
+                        if(all_vals[r]==display_name){
+                            variants.push(display_name);
+                        }
                     }
                 })
+                var product_variants = optical_glass.product_variant_ids;
+                var variantes = variants;
+                for(var t=0; t<product_variants.length; t++){
+                     var attr_ar = []
+                     var product_product = product_variants[t];
+                      var p = self.pos.db.product_by_id[product_product];
+                      for(var i=0; i<variantes.length; i++){
+                            var s = self;
+                            var v = vals[variantes[i]];
+                            var attr = variantes[i];
+                            var att_val = false;
+                           /* if (p.id == 4074){
+                                var a = 1;
+                            }*/
+                            if(p.attribute_value_ids && v){
+                                var values = p.attribute_value_ids;
+                                for(var x=0; x < values.length; x++){
+                                    if (self.pos.db.product_attribute_value_by_id[values[x]].name == v){
+                                        att_val = self.pos.db.product_attribute_value_by_id[values[x]];
+                                        break;
+                                    }
+                                 }
+                                 if (att_val){
+                                    attr_ar.push(att_val.id);
+                                 }
+                            }
+                      }
+                      if((JSON.stringify(attr_ar.sort()) === JSON.stringify(p.attribute_value_ids.sort())) && (attr_ar.length == variantes.length)){
+                            $('#glasses').empty();
+                            var json = {
+                                value: product_product,
+                                text: self.pos.db.product_by_id[product_product].display_name
+                            }
+                            $('#glasses').append($('<option>', json));
+                            break;
+                        }
+                }
+
+
+//                 optical_glass.product_variant_ids.forEach(function(product_product){
+//                      var attr_ar = []
+//                      var p = self.pos.db.product_by_id[product_product];
+//                      for(var i=0; i<variants.length; i++){
+//                            var s = self;
+//                            var v = vals[variants[i]];
+//                            var attr = variants[i];
+//                            var att_val = false;
+//                           /* if (p.id == 4074){
+//                                var a = 1;
+//                            }*/
+//                            if(p.attribute_value_ids && v){
+//                                var values = p.attribute_value_ids;
+//                                for(var x=0; x < values.length; x++){
+//                                    if (self.pos.db.product_attribute_value_by_id[values[x]].name == v){
+//                                        att_val = self.pos.db.product_attribute_value_by_id[values[x]];
+//                                        break;
+//                                    }
+//                                 }
+//                                 if (att_val){
+//                                    attr_ar.push(att_val.id);
+//                                 }
+//                            }
+//                      }
+//                      if(JSON.stringify(attr_ar.sort()) === JSON.stringify(p.attribute_value_ids.sort())){
+//                            $('#glasses').empty();
+//                            var json = {
+//                                value: product_product,
+//                                text: self.pos.db.product_by_id[product_product].display_name
+//                            }
+//                            $('#glasses').append($('<option>', json));
+//                            return false;
+//                        }
+//                })
                 variants = [];
             })
         },

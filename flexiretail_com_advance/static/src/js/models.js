@@ -2887,6 +2887,7 @@ odoo.define('flexiretail_com_advance.models', function (require) {
                 delivery_address: this.get_delivery_address() || false,
                 delivery_type: this.get_delivery_type() || false,
                 delivery_user_id: this.get_delivery_user_id() || false,
+                ultimo_pago: false,
             };
             $.extend(orders, new_val);
             return orders;
@@ -3529,5 +3530,8 @@ odoo.define('flexiretail_com_advance.models', function (require) {
             return this.get('payment_charge');
         },
     });
+
+    models.load_fields('account.journal', ['name']);
+
 
 });

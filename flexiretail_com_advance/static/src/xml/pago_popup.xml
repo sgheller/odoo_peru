@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="pos_orders_all_template" inherit_id="point_of_sale.template" xml:space="preserve">
+
+<!--TODO: MODAL PAGOS-->
+     <t t-name="PaidInputPopup">
+        <div role="dialog" class="modal-dialog">
+            <div class="popup popup-textinput">
+                <header class="title">Realice el pago</header>
+                <main>
+                    <table style="margin-top: 14px;margin-left: 88px;">
+                        <head>
+                            <tr>
+                                <td colspan="2" style="font-size: 20px;color:darkturquoise">
+                                    <span >Factura: </span>
+                                    <t t-if="widget.order_id.number">
+                                        <t t-esc="widget.order_id.number"/>
+                                    </t>
+                                </td>
+                                <td colspan="2"><hr/></td>
+                            </tr>
+                        </head>
+                        <body>
+
+                             <tr style="height: 90px;">
+                                <th>Forma de Pago:</th>
+                                <td>
+                                      <select id="select_forma_pago" style="width: 270px!important;" name="select_forma_pago">
+                                        <t t-foreach="widget.journals || []" t-as="item">
+                                            <option t-attf-data-id="{{ item.id }}"><t t-esc='item.name'/></option>
+                                        </t>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr style="height: 90px;">
+                                <th>Cantidad a pagar:</th>
+                                <td>
+                                     <input type="number"  name="pay_amount"  t-att-value='widget.amount_due || ""' id="pay_amount"
+                                            style=";width: 270px!important;text-align:center"/>
+                                </td>
+                            </tr>
+                        </body>
+
+                    </table>
+                </main>
+                <div class="footer">
+                    <div class="button confirm">
+                        Confirmar
+                    </div>
+                    <div class="button cancel">
+                        Cancelar
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+
+</templates>
