@@ -1334,7 +1334,11 @@ class pos_order(models.Model):
             'order_on_debit': ui_order.get('order_on_debit'),
             'pos_normal_receipt_html': ui_order.get('pos_normal_receipt_html'),
             'pos_xml_receipt_html': ui_order.get('pos_xml_receipt_html'),
+            'number_cotization': ui_order.get('number_cotization'),
         })
+
+        if res['number_cotization']:
+            res['is_cotization'] = True
         return res
 
     def set_pack_operation_lot(self, picking=None):

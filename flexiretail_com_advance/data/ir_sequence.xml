@@ -4,8 +4,8 @@
         <record id="seq_cotizacion_pe_pos" model="ir.sequence">
             <field name="name">Secuencia cotización en POS</field>
             <field name="code">repair.order</field>
-            <field name="prefix">RMA/</field>
-            <field name="padding">5</field>
+            <field name="prefix">COT-</field>
+            <field name="padding">6</field>
         </record>
     </data>
 </odoo>

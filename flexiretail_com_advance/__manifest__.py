@@ -34,6 +34,7 @@
         'data/product_expiry_scheduler.xml',
         'data/product_alert_email_template.xml',
         'data/pos_cache_data.xml',
+        'data/ir_sequence.xml', #Nuevo 2021-11-02
         'views/purchase_order_views.xml',
         'views/res_config_setting_view.xml',
         'views/flexiretail.xml',

@@ -1101,6 +1101,8 @@ odoo.define('flexiretail_com_advance.models', function (require) {
             this.remaining_redeemption = false;
             this.is_categ_sideber_open = false;
             this.delivery_user_id = false;
+            this.number_cotization = false
+            this.is_cotizacion = false
             return this;
         },
         // set_sale_order_pay: function(so_pay_mode){
@@ -1109,6 +1111,13 @@ odoo.define('flexiretail_com_advance.models', function (require) {
         // get_sale_order_pay: function(){
         // 	return this.so_pay_mode;
         // },
+
+        set_number_cotization: function(number_cotization) {
+            this.number_cotization = number_cotization;
+        },
+        get_number_cotization: function() {
+            return this.number_cotization;
+        },
 
         set_is_debit: function(is_debit) {
             this.set('is_debit',is_debit);
@@ -2830,6 +2839,7 @@ odoo.define('flexiretail_com_advance.models', function (require) {
                 order_on_debit: this.get_order_on_debit() || false,
                 pos_normal_receipt_html: this.get_pos_normal_receipt_html() || '',
                 pos_xml_receipt_html: this.get_pos_xml_receipt_html() || '',
+                number_cotization: this.get_number_cotization() || '',
             }
             $.extend(orders, new_val);
             return orders;

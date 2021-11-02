@@ -54,6 +54,13 @@
        <t t-jquery="div.customer-flex" t-operation="replace">
         </t>
         <t t-jquery='.receipt-vat' t-operation="replace">
+            <t t-if="order.get_number_cotization()">
+                 <div style="margin-bottom: 10px;">
+                    <strong>
+                        COTIZACIÓN: <t t-esc="order.get_number_cotization()"/>
+                    </strong>
+                </div>
+            </t>
             <div class="receipt-vat">
                 <t t-if="order.get_company_doc_number()">
                     RUC: <t t-esc="order.get_company_doc_number()"/>
@@ -268,7 +275,7 @@
                         <col width='70%'/>
                         <col width='30%'/>
                     </colgroup>
-                    <tr>
+                      <tr>
                         <td>Saldo:</td>
                           <td class="pos-right-align">
                             <t t-esc="widget.format_currency(receipt.amount_due,2)"/>
@@ -276,13 +283,13 @@
                     </tr>
                 </table>
             </t>
-             <t t-if="receipt.ultimo_pago">
+            <t t-if="receipt.ultimo_pago">
                   <table class='receipt-change' style="border-bottom:1px dotted;">
                     <colgroup>
                         <col width='70%'/>
                         <col width='30%'/>
                     </colgroup>
-                    <tr>
+                      <tr>
                         <td>Última pago:</td>
                           <td class="pos-right-align">
                             <t t-esc="widget.format_currency(receipt.ultimo_pago,2)"/>

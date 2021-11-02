@@ -20,6 +20,10 @@
             <field name="fiscal_position_id" position="after">
                 <field name="store_id" options="{'no_create':True}"/>
             </field>
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="number_cotization" attrs="{'invisible': [('number_cotization','=',False)]}"/>
+                <field name="is_cotization" invisible="1"/>
+            </xpath>
             <field name="price_unit" position="before">
                 <field name="line_note"/>
                 <field name="deliver"/>

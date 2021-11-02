@@ -21,8 +21,8 @@ _logger = logging.getLogger(__name__)
 class PosOrder(models.Model):
     _inherit = 'pos.order'
 
-    #number_cotization = fields.Char(string=u'Número de cotización')
-    #is_cotization = fields.Boolean(default=False)
+    number_cotization = fields.Char(string=u'Número de cotización')
+    is_cotization = fields.Boolean(default=False)
 
     # TODO: Realizar Pago
     def pay_order(self, pay_amount, session_id, journal_id):
@@ -122,6 +122,11 @@ class PosOrder(models.Model):
 
 
         return args
+
+    @api.model
+    def generate_sequence(self):
+        seq = self.env.ref('flexiretail_com_advance.seq_cotizacion_pe_pos').next_by_id()
+        return seq
 
 
 class PosSession(models.Model):

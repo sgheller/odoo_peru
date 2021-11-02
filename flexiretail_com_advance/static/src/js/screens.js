@@ -3216,8 +3216,19 @@ odoo.define('flexiretail_com_advance.screens', function (require) {
                             self.pos.get_order().is_draft_order = true;
 //		                	order.set_loyalty_earned_point(0.00);
 //		                	order.set_loyalty_earned_amount(0.00);
-                            self.pos.push_order(order);
-                            self.gui.show_screen('receipt');
+                            var params = {
+                                model: 'pos.order',
+                                method: 'generate_sequence',
+                            }
+                            rpc.query(params, {async: false})
+                            .then(function(number_seq){
+                                order.set_number_cotization(number_seq)
+                                self.pos.push_order(order);
+                                self.gui.show_screen('receipt');
+
+                            });
+                            //self.pos.push_order(order);
+                            //self.gui.show_screen('receipt');
                         },
                     });
                 }
