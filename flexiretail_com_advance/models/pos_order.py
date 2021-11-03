@@ -88,28 +88,27 @@ class PosOrder(models.Model):
         context = dict(self.env.context)
         context.pop('pos_session_id', False)
 
+        for statement in self.session_id.statement_ids:
+            if statement.id == statement_id:
+                journal_id = statement.journal_id.id
+                break
+            elif statement.journal_id.id == journal_id:
+                statement_id = statement.id
+                break
+
+        ref = self.session_id.name
+
         if 'pos_session_id' in data:
-            if self.session_id.id != data['pos_session_id']:
-                SESSION = self.env['pos.session'].browse(data['pos_session_id'])
-                for statement in SESSION.statement_ids:
-                    if statement.journal_id.id == data['journal']:
-                        journal_id = data['journal']
-                        statement_id = statement.id
-                        break
+            if data['pos_session_id']:
+                if self.session_id.id != data['pos_session_id']:
+                    SESSION = self.env['pos.session'].browse(data['pos_session_id'])
+                    for statement in SESSION.statement_ids:
+                        if statement.journal_id.id == data['journal']:
+                            journal_id = data['journal']
+                            statement_id = statement.id
+                            break
+                    ref = SESSION.name
 
-            ref = SESSION.name
-
-        else:
-
-            for statement in self.session_id.statement_ids:
-                if statement.id == statement_id:
-                    journal_id = statement.journal_id.id
-                    break
-                elif statement.journal_id.id == journal_id:
-                    statement_id = statement.id
-                    break
-
-            ref = self.session_id.name
         if not statement_id:
             raise UserError(_('You have to open at least one cashbox.'))
 
