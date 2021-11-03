@@ -51,16 +51,19 @@
     </t>
 
     <t t-extend="PosTicket">
+        <t t-jquery='t[t-esc="widget.pos.company.name"]' t-operation="before">
+              <t t-if="order.get_number_cotization()">
+                     <div style="margin-bottom: 10px;" class="pos-center-number">
+                        <strong>
+                            COTIZACIÓN: <t t-esc="order.get_number_cotization()"/>
+                        </strong>
+                    </div>
+                </t>
+                <br/>
+        </t>
        <t t-jquery="div.customer-flex" t-operation="replace">
         </t>
         <t t-jquery='.receipt-vat' t-operation="replace">
-            <t t-if="order.get_number_cotization()">
-                 <div style="margin-bottom: 10px;">
-                    <strong>
-                        COTIZACIÓN: <t t-esc="order.get_number_cotization()"/>
-                    </strong>
-                </div>
-            </t>
             <div class="receipt-vat">
                 <t t-if="order.get_company_doc_number()">
                     RUC: <t t-esc="order.get_company_doc_number()"/>
@@ -104,6 +107,11 @@
         <t t-jquery='.receipt-user' t-operation="replace">
             <br/>
             <div style="text-align:left; border-bottom:1px dotted;">
+                <t t-if="order.get_referencia_pago()">
+                    <div >
+                    Nro referencia de comprobante: <t t-esc="order.get_referencia_pago()"/>
+                    </div>
+                </t>
                 <div class="receipt-pedido">
                    Pedido: <t t-esc="order.get_number_order()"/>
                 </div>

@@ -83,6 +83,7 @@ odoo.define('flexiretail_com_advance.PaidInputPopup',function(require) {
                                                  selectedOrder.set_delivery_time(result.delivery_time);
                                                  selectedOrder.set_delivery_type(result.delivery_type);
                                                  selectedOrder.set_delivery_user_id(result.delivery_user_id[0]);
+                                                 selectedOrder.set_referencia_pago(orden_id.number); //Nuevo
                                                  var statement_ids = [];
                                                  if (result.statement_ids) {
                                                  	var params = {
@@ -162,6 +163,7 @@ odoo.define('flexiretail_com_advance.PaidInputPopup',function(require) {
 
 //                                                 var receipt_html = QWeb.render('PosTicket',env);
 //                                                 selectedOrder.set_pos_normal_receipt_html(receipt_html.replace(/<img[^>]*>/g,"").replace(/<object[^>]*>/g,""));
+
                                                  var receipt = QWeb.render('XmlReceipt',env);
                                                  selectedOrder.set_pos_xml_receipt_html(receipt.replace(/<img[^>]*>/g,"").replace(/<object[^>]*>/g,""));
 

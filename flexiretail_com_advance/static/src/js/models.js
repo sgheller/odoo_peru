@@ -1118,7 +1118,12 @@ odoo.define('flexiretail_com_advance.models', function (require) {
         get_number_cotization: function() {
             return this.number_cotization;
         },
-
+        set_referencia_pago: function(referencia_pago) {
+            this.referencia_pago = referencia_pago;
+        },
+        get_referencia_pago: function() {
+            return this.referencia_pago;
+        },
         set_is_debit: function(is_debit) {
             this.set('is_debit',is_debit);
         },
@@ -2898,6 +2903,7 @@ odoo.define('flexiretail_com_advance.models', function (require) {
                 delivery_type: this.get_delivery_type() || false,
                 delivery_user_id: this.get_delivery_user_id() || false,
                 ultimo_pago: false,
+                referencia_pago: this.get_referencia_pago() || false,
             };
             $.extend(orders, new_val);
             return orders;
